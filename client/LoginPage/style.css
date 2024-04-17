@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Dark background color */
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/login-photo.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Adjust text color for better visibility */
+}
+
+.login-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Pink background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #ff1493; /* Lighter pink on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    max-width: 50%;
+    padding: 40px;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.overlay {
+    padding: 20px;
+}
+
+h1, p {
+    text-align: center;
+    margin-top: 50px; /* Move the text down to the center */
+}
+
+.right {
+    max-width: 50%;
+    padding: 40px;
+    background-color: #1f1f1f; /* Dark background color */
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ff69b4; /* Pink border */
+}
+
+h5 {
+    font-size: 1.5em; /* Adjust the font size */
+    color: #fff; /* Set the text color */
+    margin-bottom: 10px; /* Add some bottom margin for spacing */
+    text-align: center; /* Center-align the text */
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #2f2f2f; /* Darker background for inputs */
+    color: #fff; /* Text color for inputs */
+}
+
+.remember-me--forget-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me--forget-password p {
+    color: #ccc; /* Lighter text color */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff69b4; /* Pink background color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1493; /* Lighter pink on hover */
+}
+
+button:active {
+    background-color: #ff0066; /* Darker pink on click */
+}

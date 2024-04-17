@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="/client/app.js"></script>
+        <script src="/libs/vue.js"></script>
+        <title>RealEstateEmporium</title>
+    </head>
+    <body>
+    
+       
+        <div id="login-component" class="login-component">
+            <div id ="left" class="left">
+                <div class="overlay">
+                    <h1>Login to RealEstateEmporium</h1>
+                        <p>"Want to sell easily and quickly? This is the place where you can do it."</p>
+                </div>
+            </div>
+            <div class="right">
+                <h5>Login</h5>
+                <div class="inputs">
+                    <input v-model="user" type="text" placeholder="Username">{{user}}
+                    
+                    <input v-model="pass" type="password" placeholder="Password">{{pass}}
+                </div>
+                <button v-on:click="login">Login</button>
+                <h1>{{ message }}</h1>
+                <button v-on:click="login">Create Account</button>
+                <h1>{{ message }}</h1>
+            </div>
+        </div>
+        
+    </body>
+</html>

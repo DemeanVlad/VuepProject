@@ -1,0 +1,85 @@
+{
+    "apartments": [
+      {
+        "id": 1,
+        "title": "Spacious Downtown Apartment",
+        "description": "Beautiful apartment located in the heart of the city. Close to amenities and public transportation.",
+        "price": 150000,
+        "location": "Downtown, CityName",
+        "image": "apartment1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Cozy Studio Apartment",
+        "description": "Charming studio apartment with modern amenities. Perfect for a single person or couple.",
+        "price": 80000,
+        "location": "Suburb, CityName",
+        "image": "apartment2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Luxury Penthouse with Panoramic Views",
+        "description": "Stunning penthouse offering breathtaking views of the city skyline. High-end finishes and spacious layout.",
+        "price": 500000,
+        "location": "City Center, CityName",
+        "image": "apartment3.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Family-Friendly Apartment with Garden",
+        "description": "Comfortable apartment with a private garden, perfect for families. Close to schools and parks.",
+        "price": 200000,
+        "location": "Suburb, CityName",
+        "image": "apartment4.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Modern Loft in Trendy Neighborhood",
+        "description": "Sleek and stylish loft apartment in a vibrant neighborhood. Close to shops, restaurants, and nightlife.",
+        "price": 120000,
+        "location": "Artsy District, CityName",
+        "image": "apartment5.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Charming Vintage Apartment",
+        "description": "Quaint apartment with vintage charm and character. Ideal for those who appreciate historical architecture.",
+        "price": 90000,
+        "location": "Historic District, CityName",
+        "image": "apartment6.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Sunny Beachfront Condo",
+        "description": "Bright and airy condo with stunning ocean views. Enjoy resort-style living by the beach.",
+        "price": 300000,
+        "location": "Beachfront, CityName",
+        "image": "apartment7.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Mountain Retreat Cabin",
+        "description": "Escape to the mountains in this cozy cabin retreat. Perfect for nature lovers and outdoor enthusiasts.",
+        "price": 180000,
+        "location": "Mountain Area, CityName",
+        "image": "apartment8.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Elegant Townhouse in Gated Community",
+        "description": "Sophisticated townhouse in a secure gated community. Features upscale amenities and exclusive access to facilities.",
+        "price": 250000,
+        "location": "Suburb, CityName",
+        "image": "apartment9.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Riverside Retreat with Private Dock",
+        "description": "Tranquil riverside retreat with a private dock for boating and fishing. Serene setting surrounded by nature.",
+        "price": 350000,
+        "location": "Riverside, CityName",
+        "image": "apartment10.jpg"
+      }
+    ]
+  }
+  

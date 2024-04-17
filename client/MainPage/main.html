@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartments for Sale</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/client/app.js"></script>
+    <script src="/libs/vue.js"></script>
+    <script src="/img/apartament1.jpeg"></script>
+</head>
+<body>
+    <header>
+        <h1>Apartments for Sale</h1>
+    </header>
+
+    <main>
+            <div id="listings" class="apartment-list">
+                <!-- Apartment box 1 -->
+                <div class="apartment">
+                    <img src="apartament1.jpg" alt="Apartment Image">
+                    <h3>Apartment 1</h3>
+                    <p>Description of Apartment 1.</p>
+                    <p>Price: $100,000</p>
+                    <button v-on:click="addtocart">Add to Cart</button>
+                </div>
+                
+                <!-- Apartment box 2 -->
+                <div class="apartment">
+                    <img src="apartment2.jpg" alt="Apartment Image">
+                    <h3>Apartment 2</h3>
+                    <p>Description of Apartment 2.</p>
+                    <p>Price: $150,000</p>
+                    <button v-on:click="addtocart">Add to Cart</button>
+                </div>
+                
+                <!-- Apartment box 3 -->
+                <div class="apartment">
+                    <img src="apartment3.jpg" alt="Apartment Image">
+                    <h3>Apartment 3</h3>
+                    <p>Description of Apartment 3.</p>
+                    <p>Price: $120,000</p>
+                    <button v-on:click="addtocart">Add to Cart</button>
+                </div>
+                
+                <!-- Apartment box 4 -->
+                <div class="apartment">
+                    <img src="apartment4.jpg" alt="Apartment Image">
+                    <h3>Apartment 4</h3>
+                    <p>Description of Apartment 4.</p>
+                    <p>Price: $110,000</p>
+                    <button v-on:click="addtocart">Add to Cart</button>
+                </div>
+                
+                <!-- Apartment box 5 -->
+                <div class="apartment">
+                    <img src="apartment5.jpg" alt="Apartment Image">
+                    <h3>Apartment 5</h3>
+                    <p>Description of Apartment 5.</p>
+                    <p>Price: $130,000</p>
+                    <button v-on:click="addtocart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
